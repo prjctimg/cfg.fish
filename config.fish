@@ -1,6 +1,5 @@
 #! /usr/bin/env fish
 
-ssh_agent
 bind \ea opencode
 bind \ee nvim
 
@@ -393,3 +392,4 @@ carapace _carapace | source
 
 
 eval (starship init fish)
+ssh_agent
